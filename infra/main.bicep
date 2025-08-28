@@ -56,7 +56,7 @@ param principalId string = ''
 @allowed(['Microsoft', 'OpenAI'])
 param agentModelFormat string = 'OpenAI'
 @description('Name of agent to deploy')
-param agentName string = 'agent-template-assistant'
+param agentName string = 'agent'
 @description('(Deprecated) ID of agent to deploy')
 param aiAgentID string = ''
 @description('ID of the existing agent')

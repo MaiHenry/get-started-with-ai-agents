@@ -287,7 +287,7 @@ Once you've opened the project in [Codespaces](#github-codespaces) or in [Dev Co
 
 5. (Optional) Now that your app has deployed, you can view your resources in the Azure Portal and your deployments in Azure AI Foundry.
     - In the [Azure Portal](https://portal.azure.com/), navigate to your environment's resource group. The name will be `rg-[your environment name]`. Here, you should see your container app, storage account, and all of the other [resources](#resources) that are created in the deployment.
-    - In the [Azure AI Foundry Portal](https://ai.azure.com/), select your project. If you navigate to the Agents tab, you should be able to view your new agent, named `agent-template-assistant`. If you navigate to the Models and Endpoints tab, you should see your AI Services connection with your model deployments.
+  - In the [Azure AI Foundry Portal](https://ai.azure.com/), select your project. If you navigate to the Agents tab, you should be able to view your new agent, named `agent`. If you navigate to the Models and Endpoints tab, you should see your AI Services connection with your model deployments.
 
 6. (Optional) You can use a local development server to test app changes locally. To do so, follow the steps in [local deployment server](#develop-with-local-development-server) after your app is deployed.
 

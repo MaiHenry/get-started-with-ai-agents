@@ -141,7 +141,7 @@
     },
     "agentName": {
       "type": "string",
-      "defaultValue": "agent-template-assistant",
+  "defaultValue": "agent",
       "metadata": {
         "description": "Name of agent to deploy"
       }

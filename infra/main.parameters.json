@@ -51,7 +51,7 @@
       "value": "${USE_AZURE_AI_SEARCH_SERVICE=false}"
     },
     "agentName": {
-      "value": "${AZURE_AI_AGENT_NAME=agent-template-assistant}"
+  "value": "${AZURE_AI_AGENT_NAME=agent}"
     },
     "aiAgentID": {
       "value": "${AZURE_AI_AGENT_ID}"

@@ -55,18 +55,16 @@ export function BuiltWithBadge({
     <button
       className={clsx(styles.badge, className)}
       onClick={handleClick}
-      type="button"
-    >
+      type="button">
       {" "}
       <span className={styles.logo}>
         {/* Azure AI Foundry logo */}
         <AIFoundryLogo />
       </span>
       <Caption1Strong className={styles.description}>
-        Build & deploy AI agents with
       </Caption1Strong>
       <Caption1Strong className={styles.brand}>
-        Azure AI Foundry <ArrowRight16Filled aria-hidden={true} />
+        <ArrowRight16Filled aria-hidden={true} />
       </Caption1Strong>
     </button>
   );
