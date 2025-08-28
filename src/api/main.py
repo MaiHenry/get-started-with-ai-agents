@@ -126,9 +126,6 @@ def create_app():
     from . import routes  # Import routes
     app.include_router(routes.router)
 
-    from server.facebook_moderation import router as fb_router
-    app.include_router(fb_router)
-
     # Global exception handler for any unhandled exceptions
     @app.exception_handler(Exception)
     async def global_exception_handler(request: Request, exc: Exception):
